@@ -1,0 +1,43 @@
+@import '~sass/styles';
+
+.jumbotron {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-color: $jumbotron;
+    min-height: 100vh;
+    .jumbotron-content {
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+      .content {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        .image-container {
+          margin-top: 25vh;
+          width: 100vw;
+          img {
+            width: 100%;
+          }
+        }
+        h4, h5 {
+          padding: 10px;
+        }
+      }
+      .btn-container {
+        margin-top: 25px;
+      }
+      .arrow-cont {
+        position: absolute;
+        bottom: 5px;
+        left: 47%;
+        text-align: center;
+        img {
+          width: auto;
+          height: 60px;
+          margin-top: 0px;
+        }
+      }
+    }
+}

@@ -1,0 +1,78 @@
+@import './grid';
+@import './mixins';
+@import './button';
+
+
+h1 {
+    font-family: $h1;
+    font-size: 70px;
+    .light {
+        color: $lite;
+    }
+    .dark {
+        color: $jumbotron;
+    }
+}
+
+h4 {
+    font-family: $h1;
+    font-size: 40px;
+    &.light {
+        color: $lite;
+    }
+    &.dark {
+        color: $jumbotron;
+    }
+}
+
+h5 {
+    font-family: $h4;
+    font-size: 30px;
+    &.light {
+        color: $lite;
+    }
+    &.dark {
+        color: black;
+    }
+}
+
+p {
+    font-size: 15px;
+    font-family: $p;
+    margin-bottom: 2px;
+    .light {
+        color: $lite;
+    }
+    .dark {
+        color: black;
+    }
+}
+
+hr {
+    border: 3px solid $jumbotron;
+    border-radius: 1px;
+}
+
+// .jumbotron {
+//     height: 100vh;
+//     width: 100%;
+//     background: white;
+//     background-size: cover;
+//     padding: 40px;
+//     .jumbotron-content {
+//         margin-top: 70px;
+//         padding: 80px;
+//         .btn-container {
+//             padding-top: 40px;
+//             display: flex;
+//             flex-direction: row;
+//             justify-content: center;
+//         }
+//     }
+// }
+
+// @media (max-width: 540px) {
+//     .jumbotron .jumbotron-content {
+//         padding: 0px;
+//     }
+// }
